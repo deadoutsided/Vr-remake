@@ -1,0 +1,10 @@
+.footer__title{
+  font-family: aller_bold, arial, sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  margin: 0 0 30px;
+}

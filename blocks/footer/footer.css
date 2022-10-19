@@ -1,0 +1,10 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #1E1E1E;
+  padding: 40px 50px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: hidden;
+}

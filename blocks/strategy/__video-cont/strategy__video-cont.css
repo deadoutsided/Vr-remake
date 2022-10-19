@@ -1,0 +1,7 @@
+.strategy__video-cont{
+  height: 50%;
+  background-image: url(../../../img/AVENUE_1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}

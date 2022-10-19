@@ -1,0 +1,11 @@
+.vr-simulator{
+  max-width: 677px;
+  width: 49vw;
+}
+
+@media screen and (max-width: 800px) {
+  .vr-simulator{
+    width: 100vw;
+    max-width: 800px;
+  }
+}

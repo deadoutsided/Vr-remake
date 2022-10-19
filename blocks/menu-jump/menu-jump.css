@@ -1,0 +1,11 @@
+.menu-jump{
+  background-image: url(../../img/menu_logo.png);
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  width: 42px;
+  height: 26px;
+  background-size: 100% 100%;
+  z-index: 10;
+  cursor: pointer;
+}

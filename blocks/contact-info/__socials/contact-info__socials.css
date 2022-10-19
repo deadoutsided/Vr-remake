@@ -1,0 +1,5 @@
+.contact-info__socials{
+  margin: auto 0 0;
+  display: flex;
+  flex-direction: row;
+}

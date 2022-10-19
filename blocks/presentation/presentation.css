@@ -1,0 +1,16 @@
+.presentation{
+  background-image: url(../../../img/LEX_1.png);
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 105vw;
+}
+
+@media screen and (max-width: 800px) {
+  .presentation{
+    width: 100vw;
+  }
+}

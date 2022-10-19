@@ -1,0 +1,14 @@
+.play-image{
+  background-image: url(../../../img/video_playbutton.png);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 4;
+  width: 83px;
+  height: 83px;
+  top: calc(50% - 41px);
+  left: calc(50% - 41px);
+}
+
+.play-image:hover{
+  background-position: 0 -83px;
+}

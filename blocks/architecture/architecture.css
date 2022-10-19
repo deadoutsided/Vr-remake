@@ -1,0 +1,12 @@
+.architecture{
+  position: relative;
+  background-image: url(../../img/NewWorld_1.png);
+  width: 105vw;
+  background-position: center;
+}
+
+@media screen and (max-width: 800px) {
+  .architecture{
+    width: 100vw;
+  }
+}

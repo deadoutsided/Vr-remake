@@ -1,0 +1,14 @@
+.contact-info__map{
+  line-height: 20px;
+  text-decoration: none;
+  font-family: aller_bold, arial, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #b6abaf;
+  
+  transition: color 0.2s linear;
+}
+
+.contact-info__map:hover{
+  color: #FFF;
+}

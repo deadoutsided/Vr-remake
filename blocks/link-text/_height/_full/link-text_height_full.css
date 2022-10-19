@@ -1,0 +1,13 @@
+.link-text_height_full{
+  background-color: #191919;
+  max-width: 600px;
+  min-width: 320px;
+  width: 43vw;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .link-text_height_full{
+    width: 100vw;
+  }
+}

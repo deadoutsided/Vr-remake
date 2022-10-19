@@ -1,0 +1,14 @@
+.footer__list-title{
+  font-family: aller_regular, arial, sans-serif;
+  color: #666;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.footer__list-title:first-child{
+  text-transform: uppercase;
+  height: 35px;
+}

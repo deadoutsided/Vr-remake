@@ -1,0 +1,11 @@
+.architecture-present{
+  background-color: #231f1f;
+  max-width: 320px;
+}
+
+@media screen and (max-width: 800px) {
+  .architecture-present{
+    width: 100vw;
+    max-width: 800px;
+  }
+}

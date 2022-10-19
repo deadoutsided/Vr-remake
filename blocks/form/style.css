@@ -1,0 +1,251 @@
+.box.ayo {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: aller_regular, arial, sans-serif;
+    line-height: 20px;
+    color: #666;
+    min-width: 320px;
+    width: 44vw;
+}
+
+@media screen and (max-width: 800px) {
+    .box.ayo{
+      width: 100vw;
+      height: 100vh;
+      overflow-y: hidden;
+    }
+  }
+
+.textblock{
+    width: 340px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-left: 15px;
+    overflow-x: hidden;
+}
+
+.box.ayo .textblock h2 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: normal;
+
+}
+
+.box.ayo a:hover {
+    text-decoration: none;
+}
+
+.form__flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form * {
+    outline: none;
+}
+
+.form__body {
+    position: relative;
+}
+
+.form__body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background: url(../../img/loader2.gif) center / 20px no-repeat;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5 ease 0s;
+}
+
+._sending::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*_sending*/
+
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    margin-bottom: 4px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    font-family: aller_bold, arial, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.form__input {
+    margin-bottom: 5%;
+    width: 80%;
+    padding: 5px;
+    border: none;
+    background-color: #232323;
+    font-family: aller_regular, arial, sans-serif;
+    color: #FFF;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    transition: all 0.5s ease 0s;
+}
+
+.form__input:focus {
+    box-shadow: 0 0 1px #ffffff;
+    background-color:#282828
+
+}
+
+.form__input:hover{
+    box-shadow: 0 0 1px #ffffff;
+    background-color:#282828
+}
+
+.form__input._error {
+    border: 0 0 1px #CE0624;
+}
+
+textarea.form__input {
+    min-height: 120px;
+    resize: vertical;
+    padding: 6px;
+}
+
+.checkbox._error .checkbox__label::before {
+    border: 0 0 1px #CE0624;
+}
+
+.checkbox__input {
+    margin-right: 1%;
+    display: none;
+}
+
+.checkbox__input:checked+.checkbox__label::after {
+    transform: scale(1);
+}
+
+.checkbox__label {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox__label::before {
+    content: "";
+    align-self: flex-start;
+    flex: 0 0 16px;
+    height: 16px;
+    background-color: #303030;
+    border-radius: 4px;
+    margin: 0px 6px 0px 0px;
+}
+
+.checkbox__label::after {
+    transition: transform 0.5s ease 0s;
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: #cccccc;
+    transform: scale(0);
+
+}
+
+.checkbox__text {
+    width: 80%;
+    width: 80%;
+    margin-bottom: 5%;
+    color: #666;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.checkbox_link {
+    text-decoration: underline;
+}
+
+.form_button {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 32px;
+    background-color: #303030;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: backround-color 0.5s ease 0s;
+    margin-bottom: 5%;
+}
+
+.form_button:hover {
+    background-color: #3f3f3f;
+}
+
+.info {
+    display: none;
+    color: #ffffff;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.info_active{
+    display: block;
+}
+
+.error_text {
+    display: none;
+    color: #CE0624;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.error_text_active {
+    display: block;
+}
+
+.error_text-email{
+    display: none;
+    color: #CE0624;
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.error_text-email_active{
+    display: block;
+}
+

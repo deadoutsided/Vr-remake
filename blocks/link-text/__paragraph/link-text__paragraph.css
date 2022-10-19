@@ -1,0 +1,22 @@
+.link-text__paragraph{
+  color: #b6abaf;
+  font-family: aller_regular, arial, sans-serif;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: normal;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .link-text__paragraph{
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .link-text__paragraph{
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

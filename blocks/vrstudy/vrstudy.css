@@ -1,0 +1,12 @@
+.vrstudy{
+  background-image: url(../../img/logistic_4.png);
+  max-width: 710px;
+  width: 52vw;
+}
+
+@media screen and (max-width: 800px) {
+  .vrstudy{
+    width: 100vw;
+    max-width: 800px;
+  }
+}

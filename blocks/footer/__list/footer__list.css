@@ -1,0 +1,6 @@
+.footer__list{
+  margin: 0;
+  padding: 0 40px 0 0;
+  list-style-type: none;
+  min-width: 180px;
+}

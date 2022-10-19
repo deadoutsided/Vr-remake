@@ -1,0 +1,7 @@
+.vr-simulator__video-cont{
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

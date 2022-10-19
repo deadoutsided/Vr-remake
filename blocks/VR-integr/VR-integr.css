@@ -1,0 +1,15 @@
+.VR-integr{
+  background-image: url(../../img/AVENUE_5.png);
+  background-size: cover;
+  height: 100%;
+  min-width: 500px;
+  max-width: 700px;
+  width: 52vw;
+}
+
+@media screen and (max-width: 800px) {
+  .VR-integr{
+    width: 100vw;
+    min-width: 320px;
+  }
+}

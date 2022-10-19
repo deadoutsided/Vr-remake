@@ -1,0 +1,15 @@
+.link-text__text-hov{
+  font-family: aller_bold, arial, sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: #666;
+  transition: color 0.15s linear;
+  margin: 0;
+}
+
+.link-text__link:hover > .link-text__text-hov{
+  color: #FFF;
+}

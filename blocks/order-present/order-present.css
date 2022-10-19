@@ -1,0 +1,11 @@
+.order-present{
+  max-width: 320px;
+  background-color: #231f1f;
+}
+
+@media screen and (max-width: 800px) {
+  .order-present{
+    width: 100vw;
+    max-width: 800px;
+  }
+}

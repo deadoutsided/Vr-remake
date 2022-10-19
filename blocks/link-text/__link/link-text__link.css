@@ -1,0 +1,6 @@
+.link-text__link{
+  padding: 40px 30px 0;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}

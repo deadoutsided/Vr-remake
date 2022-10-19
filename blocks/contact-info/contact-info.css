@@ -1,0 +1,18 @@
+.contact-info{
+  height: 100%;
+  background-color: #000;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 320px;
+  width: 44vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-info{
+    width: 100vw;
+  }
+}
