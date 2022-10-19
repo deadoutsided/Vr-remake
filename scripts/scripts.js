@@ -60,10 +60,10 @@ menuJumpButton.addEventListener('click', () => {
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i
     .test(navigator.userAgent)) {
 
-    alert("Вы используете мобильное устройство (телефон или планшет).")
+    //alert("Вы используете мобильное устройство (телефон или планшет).")
 
 } else {
-  alert("Вы используете ПК.");
+  //alert("Вы используете ПК.");
   //change vertical scroll to horizontal
   document.addEventListener('wheel', (evt) => {
 	//console.log(evt);
