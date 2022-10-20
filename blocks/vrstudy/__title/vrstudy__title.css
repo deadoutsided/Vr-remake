@@ -9,7 +9,7 @@
   padding: 50% 0 20px 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-height: 800px) {
   .vrstudy__title{
     padding: 20% 0 20px 30px;
     font-size: 66px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-height: 600px) {
   .vrstudy__title{
     font-size: 51px;
     line-height: 45px;
