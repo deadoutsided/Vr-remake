@@ -71,12 +71,14 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 });
 }
 
+document.addEventListener('touchmove', (evt) => console.log(evt));
+
 let touchstartX = 0
 let touchendX = 0
     
 function checkDirection() {
-  if (touchendX < touchstartX) alert('swiped left!')
-  if (touchendX > touchstartX) alert('swiped right!')
+  if (touchendX < touchstartX) console.log('swiped left!')
+  if (touchendX > touchstartX) console.log('swiped right!')
 }
 
 document.addEventListener('touchstart', e => {
